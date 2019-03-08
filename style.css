@@ -1,0 +1,78 @@
+body,li,ul,a{
+	margin:0px;
+	padding:0px;
+}
+.menu{
+	background-color:gray;
+}
+.menu:after{
+	content:'';
+	display:block;
+	clear:both;
+}
+.mid{
+	width:50%;
+	float:right;
+}
+.menu ul{
+	list-style:none;
+}
+.menu ul li{
+	float:left;
+}
+.menu ul li a{
+text-decoration:none;
+padding:15px 20px;
+display:block;
+color:#fff;
+transition:1s;
+font-size:20px;
+font-family:Times New Roman;
+}
+.menu ul li:nth-child(1):hover a{
+	background-color:green;
+}
+.menu ul li:nth-child(2):hover a{
+	background-color:yellow;
+}
+.menu ul li:nth-child(3):hover a{
+	background-color:pink;
+}
+.menu ul li:nth-child(4):hover a{
+	background-color:blue;
+}
+.menu ul li:nth-child(5):hover a{
+	background-color:purple;
+}
+.menu ul li ul li{
+	float:none;
+	padding:5px;
+}
+.menu ul li {
+	position:relative;
+}
+.menu ul li ul{
+	position:absolute;
+	top:100%;
+	left:0px;
+}
+.menu ul li ul li:nth-child(1):hover a{
+	background-color:black;
+	border-radius:90%;
+}
+.menu ul li ul li:nth-child(2):hover a{
+	background-color:green;
+	border-radius:90%;
+}
+.menu ul li ul li:nth-child(3):hover a{
+	background-color:blue;
+	border-radius:90%;
+}
+.menu ul li ul li:nth-child(4):hover a{
+	background-color:purple;
+	border-radius:90%;
+}
+.menu ul li ul li:nth-child(5):hover a{
+	background-color:#758594;
+	border-radius:90%;
+}
